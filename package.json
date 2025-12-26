@@ -4,9 +4,9 @@
   "description": "Thư viện Agrid React Native cho phép bạn tích hợp analytics vào ứng dụng React Native của mình. Thư viện này được xây dựng dựa trên PostHog và hỗ trợ đầy đủ cho ứng dụng React Native.",
   "license": "MIT",
   "author": {
-    "name": "Advn Global",
-    "email": "advn.software@gmail.com",
-    "url": "https://advnglobal.com"
+    "name": "Agrid",
+    "email": "info@agrid.vn",
+    "url": "https://agrid.vn"
   },
   "keywords": [
     "agrid",
@@ -33,8 +33,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/advnsoftware-oss/agrid-js.git",
-    "directory": "packages/agrid-react-native"
+    "url": "git+https://github.com/agridvn/agrid-react-native.git"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -49,7 +48,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.28.4",
-    "@agrid/core": "^1.5.2"
+    "@agrid/core": "^1.5.4"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.28.5",
