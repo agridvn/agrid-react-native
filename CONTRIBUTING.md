@@ -2,7 +2,7 @@
 
 ## Running sample app with Expo
 
-See [Example Expo 53](../examples/example-expo-53/README.md)
+See [Example](./example-agrid-react-native/README.md)
 
 ## Running tests
 

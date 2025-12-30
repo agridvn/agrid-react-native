@@ -46,7 +46,7 @@ cd ios && pod install && cd ..
 
 Để bắt đầu nhanh, bạn có thể sử dụng các giá trị mặc định sau:
 
-- **Host mặc định**: `https://gw.track-asia.vn`
+- **Host mặc định**: `https://gw.agrid.vn`
 
 ---
 
@@ -66,7 +66,7 @@ export function App() {
     <AgridProvider
       apiKey="<your_api_key>"
       options={{
-        host: 'https://gw.track-asia.vn',
+        host: 'https://gw.agrid.vn',
       }}
     >
       {/* Phần còn lại của ứng dụng */}
@@ -82,7 +82,7 @@ export function App() {
 import Agrid from '@agrid/agrid-react-native'
 
 export const agrid = new Agrid('<your_api_key>', {
-  host: 'https://gw.track-asia.vn',
+  host: 'https://gw.agrid.vn',
 })
 ```
 
@@ -90,7 +90,7 @@ export const agrid = new Agrid('<your_api_key>', {
 
 | Tùy chọn | Mô tả | Giá trị mặc định |
 |----------|-------|------------------|
-| `host` | URL của Agrid instance | `https://gw.track-asia.vn` |
+| `host` | URL của Agrid instance | `https://gw.agrid.vn` |
 | `flushAt` | Số lượng sự kiện trước khi tự động gửi | `20` |
 | `flushInterval` | Khoảng thời gian (ms) giữa các lần gửi | `10000` |
 | `maxBatchSize` | Số lượng sự kiện tối đa trong một batch | `100` |
@@ -109,7 +109,7 @@ export const agrid = new Agrid('<your_api_key>', {
 <AgridProvider
   apiKey="<your_api_key>"
   options={{
-    host: 'https://gw.track-asia.vn',
+    host: 'https://gw.agrid.vn',
     captureAppLifecycleEvents: true, // Tự động track app lifecycle
     flushAt: 10,
     flushInterval: 5000,
@@ -631,7 +631,7 @@ function App() {
     <AgridProvider
       apiKey="<your_api_key>"
       options={{
-        host: 'https://gw.track-asia.vn',
+        host: 'https://gw.agrid.vn',
         captureAppLifecycleEvents: true,
         flushAt: 10,
       }}
