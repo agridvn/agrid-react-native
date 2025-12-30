@@ -23,9 +23,9 @@ function App() {
 
   return (
     <AgridProvider
-      apiKey="phc_SAPXxs1DyOGgIPDKRgtgoYu4RFeQ2uREBvvJOeMnotU"
+      apiKey="<your_api_key>"
       options={{
-        host: 'https://us.i.posthog.com',
+        host: 'https://gw.agrid.vn',
         captureAppLifecycleEvents: true,
       }}
     >
