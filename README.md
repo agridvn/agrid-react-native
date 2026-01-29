@@ -1,3 +1,5 @@
+# Thư viện theo dõi hành vi người dùng trên ứng dụng - Agrid React Native
+
 # Hướng dẫn tích hợp thư viện Agrid React Native cho các ứng dụng React Native
 
 Thư viện Agrid React Native cho phép bạn tích hợp analytics vào ứng dụng React Native của mình. Thư viện này được xây dựng dựa trên PostHog và hỗ trợ đầy đủ cho ứng dụng React Native.
